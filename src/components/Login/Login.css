@@ -1,0 +1,121 @@
+@import url('../../assets/font/fonts.css');
+
+
+.login-box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.login-background {
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-title {
+    text-align: center;
+    font-family: "Kosugi", sans-serif;
+    font-weight: 400;
+    word-spacing: 10px;
+    font-size: 2.5rem;
+    color: seagreen;
+}
+
+.background {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.bg-img {
+    width: 520px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    height: 70%;
+    background-color: rgba(115, 186, 155, 1);
+    border-radius: 6px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    width: 50%;
+
+}   
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-text {
+   background-color: rgba(0, 62, 31, 1);
+   width: 100%;
+}
+
+.login-container {
+    position: relative;
+    justify-content: center;
+}
+
+.login-text {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    font-family: "Kosugi", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: x-small;
+    border-radius: 6px 6px 0 0;
+}
+
+.form-container {
+    gap: 2rem;
+    font-size: x-large;
+    padding: 2rem;
+}
+
+label {
+    font-size: large;
+    line-gap-override: 1rem;
+
+}
+
+.input-group {
+
+}
+
+input {
+    border-radius: 3px ; 
+    border: 1px solid;
+    padding: .3rem;
+    min-width: 20vw;
+    
+}
+
+.submit-btn {
+    background-color: rgba(0, 62, 31, 1);
+    min-width: 100%;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 128px;
+    font-size: large;
+}

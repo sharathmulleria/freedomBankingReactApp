@@ -1,0 +1,5 @@
+.footer {
+    display: flex;
+    background-color: rgba(115, 186, 155, 1);
+    height: 120px;
+}
