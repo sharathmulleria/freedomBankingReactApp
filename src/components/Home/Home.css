@@ -1,0 +1,72 @@
+@import url('../../assets/font/fonts.css');
+
+
+.home-container {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.home-header {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    font-weight: 300;
+
+}
+
+.home-header2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 3.5rem;
+}
+
+.home-img {
+    width: 175px;
+}
+
+.home-message  {
+    font-family: "JetBrains Mono", monospace;
+    color: rgba(5, 62, 106, 1);
+}
+
+.home-message h1{
+    font-weight: 500; 
+    font-size: xx-large;
+}
+
+.home-message h2 {
+    font-weight: 300;
+    font-size: larger; 
+}
+
+.home-btn {
+    background-color: rgba(0, 62, 31, 1);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    padding: 7px 50px;
+
+}
+
+.msg-3 {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.offers {
+    display: flex;
+    gap: 37rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.offer-img {
+    height: 150px;
+}
+
+
+
