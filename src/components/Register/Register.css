@@ -1,0 +1,148 @@
+@import url('../../assets/font/fonts.css');
+
+.register-container {
+    display: flex;
+
+}
+
+.image-panel {
+    display: flex;
+    position: relative;
+    width: 30vw;
+    height: 80vh;
+    align-items: end;
+}
+
+.text-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+}
+
+.overlay-text {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 200;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.right {
+    width: 70vw;
+}
+
+.registration-heading {
+    text-align: center;
+    
+}
+
+.account-information {
+    margin-left: 6rem;
+}
+
+.reg-heading {
+    font-family: "Inter", sans-serif; 
+    font-weight: 200;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.acc-type {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.accountType {
+    width: 50px;
+}
+
+.accType-label {
+    margin-bottom: 15px;
+}
+
+.accType-select {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.personalInformation-heading {
+    font-size: large;
+    font-weight: 600;
+}
+
+.personalInformation-msg {
+    font-size: large;
+    font-weight: 200;
+}
+
+.threeRow {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.rowInput {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2;
+    margin-right: 0.5rem;
+}
+
+.twoRow {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.dobInputContainer {
+    margin-bottom: 3px;
+}
+
+.addressInputField {
+    width: 80%;
+    height: 3vh;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.inputField {
+    height: 3vh;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.inputField:focus {
+    outline: none;
+    border: 2px solid #4299e1;
+    border-radius: 3px;
+    
+}
+
+.addressInputField:focus {
+    outline: none;
+    border: 2px solid #4299e1;
+    border-radius: 3px;
+
+}
+
+.residentialAddress {
+    margin-bottom: 2rem;
+}
+
+.registerButton {
+    width: 13vw;
+    height: 3vh;
+    padding: .5rem;
+}
