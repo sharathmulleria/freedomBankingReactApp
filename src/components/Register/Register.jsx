@@ -28,6 +28,7 @@ const Register = ()=> {
                             </select>
                         </div>
                         <div className="personalInformation">
+                            
                             <h3 className='personalInformation-heading'>Personal Information</h3>
                             <h3 className='personalInformation-msg'>The information given in this section is considered as the information of the primary account owner information.</h3>
                         </div>
@@ -43,7 +44,7 @@ const Register = ()=> {
                                         className='inputField' /> 
                                 </div>
                                 <div className="rowInput">
-                                    <label htmlFor="password" className='row-labels>'>Password</label>
+                                    <label htmlFor="password" className='row-labels'>Password</label>
                                     <input 
                                         type="password" 
                                         name="password" 
@@ -52,7 +53,7 @@ const Register = ()=> {
                                         className='inputField' /> 
                                 </div>
                                 <div className="rowInput">
-                                    <label htmlFor="confirmPassword" className='row-labels>'>Confirm password</label>
+                                    <label htmlFor="confirmPassword" className='row-labels'>Confirm password</label>
                                     <input 
                                         type="password" 
                                         name="confirmPassword" 
@@ -63,7 +64,7 @@ const Register = ()=> {
                             </div>
                             <div className="threeRow">
                                 <div className="rowInput">
-                                    <label htmlFor="firstName" className='row-labels>'>First Name</label>
+                                    <label htmlFor="firstName" className='row-labels'>First Name</label>
                                     <input 
                                         type="text" 
                                         name='firstName' 
@@ -72,7 +73,7 @@ const Register = ()=> {
                                         className='inputField'/>
                                 </div>
                                 <div className="rowInput">
-                                    <label htmlFor="lastName" className='row-labels>'>Last Name</label>
+                                    <label htmlFor="lastName" className='row-labels'>Last Name</label>
                                     <input 
                                         type="text" 
                                         name='lastName' 
@@ -81,7 +82,7 @@ const Register = ()=> {
                                         className='inputField' />
                                 </div>
                                 <div className="rowInput">
-                                    <label htmlFor="phoneNumber" className='row-labels>'>Phone Number</label>
+                                    <label htmlFor="phoneNumber" className='row-labels'>Phone Number</label>
                                     <input 
                                         type="tel" 
                                         name="phoneNumber" 
@@ -98,7 +99,7 @@ const Register = ()=> {
                                         name='dob'
                                         id='dob' />
                                     </div>
-                                    <label htmlFor="dob">Date of Birth</label>
+                                    <label htmlFor="dob" className='row-labels'>Date of Birth</label>
                                 </div>
                                 <div className="gender">
                                     <div className="dobInputContainer">
@@ -108,11 +109,11 @@ const Register = ()=> {
                                         <option value="OTHER">OTHER</option>
                                     </select>
                                     </div>
-                                    <label htmlFor="gender">Gender</label>
+                                    <label htmlFor="gender" className='row-labels'>Gender</label>
                                 </div>
                             </div>
                             <div className="residentialAddress">
-                                <h3 className="residentialAddress">Residental Address</h3>
+                                <h3 className="residentialAddressText">Residental Address</h3>
                                 <div className="addressInputContainer">
                                     <input 
                                     type="text"
@@ -120,7 +121,7 @@ const Register = ()=> {
                                     id='streetName'
                                     className='addressInputField' />
                                 </div>
-                                <label htmlFor="postal">Street Address</label>
+                                <label htmlFor="postal" className='row-labels'>Street Address</label>
                             </div>
                             <div className="residentialAddress">
                                 <div className="addressInputContainer">
@@ -130,46 +131,48 @@ const Register = ()=> {
                                     id='streetAddress'
                                     className='addressInputField' />
                                 </div>
-                                <label htmlFor="postal">Street Address Line 2</label>
+                                <label htmlFor="postal" className='row-labels'>Street Address Line 2</label>
                             </div>
-                            <div className="residentialAddress">
-                                <div className="addressInputContainer">
-                                    <input 
-                                    type="text"
-                                    name='city'
-                                    id='city'
-                                    className='inputField' />
-                                </div>
-                                <label htmlFor="postal">City</label>
-                            </div>
-                            <div className="div twoRow">
+                            <div className="threeRow">
                                 <div className="residentialAddress">
-                                <div className="rowInput">
-                                    <input 
+                                    <div className="rowInput">
+                                        <input 
+                                        type="text"
+                                        name='city'
+                                        id='city'
+                                        className='inputField' />
+                                    </div>
+                                    <label htmlFor="postal" className='row-labels'>City</label>
+                                </div>
+                                <div className="residentialAddress">
+                                    <div className="rowInput">
+                                        <input 
+                                        type="text"
+                                        name='province'
+                                        id='province'
+                                        className='inputField' />
+                                    </div>
+                                    <label htmlFor="postal" className='row-labels'>Province</label>
+                                </div>
+                                <div className="residentialAddress">
+                                    <div className="rowInput">
+                                        <input 
                                     type="text"
-                                    name='province'
-                                    id='province'
+                                    name='postal'
+                                    id='postal'
                                     className='inputField' />
+                                    </div>
+                                    <label htmlFor="postal" className='row-labels'>Postal / Zip code</label>
                                 </div>
-                                <label htmlFor="postal">Province</label>
-                            </div>
-                            <div className="postal">
-                                <div className="rowInput">
-                                    <input 
-                                type="text"
-                                name='postal'
-                                id='postal'
-                                className='inputField' />
-                                </div>
-                                <label htmlFor="postal">Postal / Zip code</label>
                             </div>
                         </div>
-                    </div>
+                        <div className="submitButton">
                             <button className='registerButton'>Register</button>
-                </div>
-            </form> 
+                        </div>
+                    </div>
+                </form> 
+            </div>
         </div>
-    </div>
     )
 }
 

@@ -2,16 +2,29 @@
 
 .register-container {
     display: flex;
+    font-family: "Inter", sans-serif;
 
 }
 
 .image-panel {
     display: flex;
     position: relative;
-    width: 30vw;
-    height: 80vh;
+    width: 27vw;
+    height: 125vh;
     align-items: end;
+    background-size: cover;
 }
+
+.image-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    z-index: 1;
+    }
 
 .text-overlay {
     background-color: rgba(0, 0, 0, 0.4);
@@ -71,13 +84,24 @@
 }
 
 .accType-select {
-    width: 150px;
+    width: 215px;
     margin-bottom: 15px;
+    height: 5vh;
+    background-color: rgba(0, 62, 31, 1);
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    font-size: large;
+}
+
+.row-labels {
+    font-size: small;
+    font-weight: 300;
 }
 
 .personalInformation-heading {
     font-size: large;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .personalInformation-msg {
@@ -104,8 +128,12 @@
     
 }
 
-.dobInputContainer {
-    margin-bottom: 3px;
+.acc-information-title {
+    margin-bottom: 25px;
+}
+
+.acc-title {
+    font-weight: 400;
 }
 
 .addressInputField {
@@ -138,11 +166,27 @@
 }
 
 .residentialAddress {
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.residentialAddressText {
+    font-size: larger;
+    font-weight: 400;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
 }
 
 .registerButton {
-    width: 13vw;
-    height: 3vh;
-    padding: .5rem;
+    width: 20vw;
+    height: 6vh;
+    background-color: rgba(0, 62, 31, 1);
+    color: white;
+    border-radius: 4px;
+    font-size: larger;
 }
